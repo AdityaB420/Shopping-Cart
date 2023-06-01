@@ -91,6 +91,6 @@ function renderItems(item) {
   document.querySelector("#pay-btn").addEventListener("click",()=>{
     //clearing cart items after clicking to the checkout btn
     localStorage.setItem("cart", JSON.stringify([]))
-    alert("Successfully purchased!");
+    alert("Redirecting to the payment page!");
     window.location.href="../razorpay/index.html"
   })
