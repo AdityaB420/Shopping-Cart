@@ -1,6 +1,11 @@
 document.querySelector("form").addEventListener("submit", signup);
 //storing all user array if there is any otherwise empty array
-let user = JSON.parse(localStorage.getItem("user")) || [];
+let userJSON = localStorage.getItem('user');
+if(userJSON){
+    let user= JSON.parse(userJSON);
+}
+let user=[];
+//let user = JSON.parse(localStorage.getItem("user")) || [];
 const login=document.getElementById("login-page");
 //function to validate the email
 function validateEmail(email) {
