@@ -4,15 +4,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-}
-
-main{
-    width: 95%;
-    margin: auto;
+  font-family: "Inter", sans-serif;
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  
   overflow-x: hidden;
 }
 
@@ -35,49 +31,37 @@ nav {
     padding: 1rem;
     font-size: 1rem;
   }
-  
-  nav .brand {
+
+nav .brand {
     font-size: 1.5rem;
     font-weight: bold;
-  }
+}
   
-  nav .nav-items a {
+nav .nav-items a {
     margin: 0 1rem;
-  }
-  #img-div{
-    height: 50%;
-  }
-  #info-div{
-    height: 40%;
-  }
-  #btn-div{
-    height: 10%;
-  }
-#h1{
-    font-size: 6rem;
 }
-#h4{
-  margin: 1rem 0rem;
-    font-size: 2rem;
+
+#signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* margin-left: 3rem; */
+    padding: 10px;
 }
-#bottom-section{
-  display: flex;
-  justify-content: space-between;
+#signup-form input{
+    margin: auto;
+    width: 95%;
+    padding: 1rem;
 }
-.btns{
-  display: flex;
-  gap: 4rem;
-  padding-top: 1rem;
+#signup-title{
+margin:2rem 2.5rem 1rem;
 }
-#login-btn,#signup-btn{
-  width: 10rem;
-  height: 3rem;
-  border: 2px solid black;
-}
-#login-btn{
-  background-color: black;
-  color: white;
-}
-img{
-  width: 60rem;
+
+#signup-form button{
+    background-color:black;
+    color: white;
+    width: 5rem;
+    padding: 1rem;
+    float: left;
+    margin-left: 2rem;
 }

@@ -6,11 +6,6 @@
   box-sizing: border-box;
 }
 
-main{
-    width: 95%;
-    margin: auto;
-}
-
 body {
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
@@ -35,49 +30,38 @@ nav {
     padding: 1rem;
     font-size: 1rem;
   }
-  
-  nav .brand {
+
+nav .brand {
     font-size: 1.5rem;
     font-weight: bold;
-  }
+}
   
-  nav .nav-items a {
+nav .nav-items a {
     margin: 0 1rem;
-  }
-  #img-div{
-    height: 50%;
-  }
-  #info-div{
-    height: 40%;
-  }
-  #btn-div{
-    height: 10%;
-  }
-#h1{
-    font-size: 6rem;
 }
-#h4{
-  margin: 1rem 0rem;
-    font-size: 2rem;
+
+
+.creditialsContainer h2{
+    margin: 40px 35px 20px ;
 }
-#bottom-section{
-  display: flex;
-  justify-content: space-between;
+
+.creditialsContainer form{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    gap: 1rem;
 }
-.btns{
-  display: flex;
-  gap: 4rem;
-  padding-top: 1rem;
+.creditialsContainer input{
+    padding: 1rem;
+    
 }
-#login-btn,#signup-btn{
-  width: 10rem;
-  height: 3rem;
-  border: 2px solid black;
-}
-#login-btn{
-  background-color: black;
-  color: white;
-}
-img{
-  width: 60rem;
+
+.creditialsContainer button{
+    padding: .5rem;
+    /* margin: auto; */
+    float: left;
+    width: 7%;
+    color: white;
+    background-color: black;
 }
